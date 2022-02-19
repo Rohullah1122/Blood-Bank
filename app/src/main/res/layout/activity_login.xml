@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgkhon"
+    tools:context=".activities.Login"
+    android:padding="10dp"
+    >
+
+
+    <!--    <EditText-->
+<!--        android:id="@+id/txtname"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:layout_marginBottom="324dp"-->
+<!--        android:background="@drawable/raduise_buttons"-->
+<!--        android:drawableStart="@drawable/ic_username"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="ایمیل آدرس"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView"-->
+<!--        app:layout_constraintVertical_bias="0.168" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/txtpass"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:background="@drawable/raduise_buttons"-->
+<!--        android:drawableStart="@drawable/ic_lock"-->
+<!--        android:gravity="center"-->
+<!--        android:hint="رمز"-->
+<!--        android:textColorHint="@color/black"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/black"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/txtname"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+
+<!--    <Button-->
+<!--        android:id="@+id/login"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginStart="24dp"-->
+<!--        android:layout_marginEnd="24dp"-->
+<!--        android:background="@drawable/raduise_buttons"-->
+<!--        android:backgroundTint="@color/orange"-->
+<!--        android:drawableTint="@color/lighred"-->
+<!--        android:text="Login"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:textSize="25sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.526"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.55" />-->
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/userimage1"
+        android:layout_width="215dp"
+        android:layout_height="282dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:src="@drawable/google"
+        app:layout_constraintBottom_toTopOf="@+id/btnnewacc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <Button
+        android:id="@+id/btnnewacc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/raduise_buttons"
+        android:backgroundTint="@color/ferozaye"
+        android:drawableTint="@color/lighred"
+        android:text="Login with mail"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

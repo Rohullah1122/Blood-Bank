@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/btn_home"
+        android:icon="@drawable/ic_home"
+        android:title="صفه اصیلی"
+        android:visible="true"
+        />
+    <item
+        android:id="@+id/btn_profile"
+        android:icon="@drawable/profile"
+        android:title="معلومات" />
+
+    <item
+        android:id="@+id/btn_messsage"
+        android:icon="@drawable/ic_email"
+        android:title="مسیج"
+        android:visible="true"
+        />
+
+    <item
+        android:id="@+id/btn_saves"
+        android:icon="@drawable/ic_save"
+        android:title="ذخیره"
+        android:visible="true"
+     />
+
+    <item
+        android:id="@+id/btn_search"
+        android:icon="@drawable/ic_search"
+        android:title="جستجو"
+        android:visible="true"
+ />
+
+    <item
+        android:id="@+id/btn_rate"
+        android:icon="@drawable/ic_rate"
+        android:title="رده بندی"
+        android:visible="true"
+        />
+
+    <group
+        >
+
+        <item
+            android:id="@+id/btn_feedback"
+            android:icon="@drawable/ic_comment"
+            android:title="نظریات"
+            android:visible="true"
+            />
+
+
+        <item
+            android:id="@+id/btn_logout"
+            android:icon="@drawable/ic_off"
+            android:title="خروج"
+            android:visible="true"
+            />
+
+
+
+    </group>
+
+
+
+</menu>
